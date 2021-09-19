@@ -45,7 +45,7 @@ function Blog() {
                         }
                     </div>
                     <div className="col-12 login-button">
-                    <button style={{ display: visible >= blog.length ? 'none' : 'hidden' }} className="loadmorebtn" onClick={showMore}>Load More</button>
+                    <button className="loadmorebtn" onClick={showMore}>Load More</button>
 
                     </div>
                 </div>
