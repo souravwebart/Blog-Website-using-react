@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html{
+    font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+    box-sizing: border-box;
+  }
+  body{
+      margin: 0;
+      font-family: "Inter", sans-serif;
+  }
+  .single-post-details{
+      margin: 30px 10px;
+
+  }
+  .single__post {
+    width: 70%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 0px;
+}
+  .single-post-details img{
+      width: 70%;
+      display: block;
+      margin: 30px auto;
+  }
+  .single-post-details h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding: 30px 0px;
+    text-decoration: underline;
+    color: rgb(58, 58, 58);
+    text-transform: capitalize;
+}
+.single-post-details p{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    padding: 30px 0px;
+    color: rgb(37, 37, 37);
+}
+.comments{
+    padding: 30px 10px;
+    background-color: rgba(80, 80, 80, 0.192);
+    box-shadow: 0px 4px 16px 0px rgb(114, 114, 114);
+}
+.comments-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.comments-details h1{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 0px;
+    color: rgb(49, 49, 49);
+}
+.comment-body{
+    padding: 0px 20px;
+    border-top: 5px solid black;
+}
+.comment-body p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    padding: 30px 0px;
+    color: rgb(49, 49, 49);
+    padding: 15px 0px;
+}
