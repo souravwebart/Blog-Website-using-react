@@ -69,3 +69,16 @@ html{
     color: rgb(49, 49, 49);
     padding: 15px 0px;
 }
+@media only screen and (max-width: 991px){
+    .comments-details {
+        display: block;
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 667px){
+    .comments-details {
+        display: block;
+        padding: 0px 20px;
+    }
+}
+
