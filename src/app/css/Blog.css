@@ -73,6 +73,19 @@ html{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .loadmorebtn {
+        width: 80%;
+        margin: 10px 5px;
+        padding: 15px 0;
+        border: none;
+        background: #111;
+        font-family: "Inter";
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 667px){
     .blog-details{
@@ -86,5 +99,18 @@ html{
         font-weight: 600;
         text-decoration: underline;
         height: 85px;
+    }
+    .loadmorebtn {
+        width: 80%;
+        margin: 10px 5px;
+        padding: 15px 0;
+        border: none;
+        background: #111;
+        font-family: "Inter";
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
     }
 }
